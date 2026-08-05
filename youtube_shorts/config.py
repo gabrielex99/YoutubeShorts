@@ -7,15 +7,16 @@ parent_env = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".env
 if os.path.exists(parent_env):
     load_dotenv(parent_env)
 
-# API Keys & Bot Settings
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AQ.Ab8RN6L_aCYSePPP8vldHTLwrS9O4dKN5pUGeLp7pOgLJN1Grw")
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8604830128:AAGDtfop4gbG3kr8BY9hY1BHtGxGb_5efhE")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "870620791")
+# API Keys & Bot Settings (loaded from local .env)
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 
 # AI Video Generation API Keys
-HF_TOKEN    = os.getenv("HF_TOKEN", "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")          # https://huggingface.co → free token
-PEXELS_API_KEY = os.getenv("PEXELS_API_KEY", "g76Uyupy5tCGEoxzXK1ID7IKqxdwSvhMM23DpVTbHUETT6p8ouFENnXY")
-PIXABAY_API_KEY = os.getenv("PIXABAY_API_KEY", "49700992-9d0e9ae1a5f29ea79b60a2c88")
+HF_TOKEN    = os.getenv("HF_TOKEN", "")
+PEXELS_API_KEY = os.getenv("PEXELS_API_KEY", "")
+PIXABAY_API_KEY = os.getenv("PIXABAY_API_KEY", "")
+
 
 
 # Text-to-Speech Settings (100% Free Neural Italian Voice)
