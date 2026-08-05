@@ -1,0 +1,13 @@
+google-generativeai
+edge-tts
+requests
+moviepy
+python-dotenv
+pillow
+numpy
+imageio-ffmpeg
+fal-client
+huggingface_hub
+youtube-transcript-api
+yt-dlp
+playwright

@@ -1,0 +1,44 @@
+{
+  "history": [
+    {
+      "timestamp": "2026-08-03T12:00:00Z",
+      "date": "2026-08-03",
+      "youtube": {
+        "channel": "@techhacks_aii",
+        "subscribers": 1420,
+        "total_views": 84500,
+        "videos_count": 34
+      },
+      "instagram": {
+        "profile": "@techs_ai1",
+        "followers": 2890,
+        "posts_count": 48
+      },
+      "beacons": {
+        "bio_url": "https://beacons.ai/techhacks.ai",
+        "estimated_daily_clicks": 310,
+        "top_converted_tool": "ElevenLabs"
+      }
+    },
+    {
+      "timestamp": "2026-08-04T12:00:00Z",
+      "date": "2026-08-04",
+      "youtube": {
+        "channel": "@techhacks_aii",
+        "subscribers": 1580,
+        "total_views": 98200,
+        "videos_count": 36
+      },
+      "instagram": {
+        "profile": "@techs_ai1",
+        "followers": 3150,
+        "posts_count": 51
+      },
+      "beacons": {
+        "bio_url": "https://beacons.ai/techhacks.ai",
+        "estimated_daily_clicks": 425,
+        "top_converted_tool": "ElevenLabs"
+      }
+    }
+  ]
+}

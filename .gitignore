@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Environment Variables & Secrets
+.env
+
+# Generated Assets & Outputs
+youtube_shorts/assets/audio/*.mp3
+youtube_shorts/assets/audio/*.wav
+youtube_shorts/assets/generated_ai_videos/*.mp4
+youtube_shorts/assets/video_clips/*.mp4
+youtube_shorts/assets/backgrounds/_gradient_fallback.mp4
+youtube_shorts/outputs/*.mp4
+youtube_shorts/outputs/*_temp_audio*
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
